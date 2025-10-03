@@ -1,0 +1,21 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+table th, table td {
+    vertical-align: middle !important;
+}
+
+.btn-success, .btn-primary {
+    transition: transform 0.2s;
+}
+
+.btn-success:hover, .btn-primary:hover {
+    transform: scale(1.05);
+}
