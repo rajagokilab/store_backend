@@ -95,7 +95,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Razorpay Test Keys (for dummy project)
 RAZORPAY_KEY_ID = 'rzp_test_ABC123456789'
-RAZORPAY_KEY_SECRET = 'ABC123456789XYZ'
+RAZORPAY_KEY_SECRET = 'ABC123456789XYZ' 
 
 # Session settings (cart persistence)
 SESSION_COOKIE_AGE = 60 * 60 * 24  # 1 day
