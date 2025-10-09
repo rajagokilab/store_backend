@@ -64,14 +64,11 @@ import os
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('myshop_db'),
-        'USER': os.environ.get('root'),
-        'PASSWORD': os.environ.get('123456'),
-        'HOST': os.environ.get('DB_HOST'),
-        'PORT': os.environ.get('DB_PORT', '3306'),
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-        },
+        'NAME': 'myshop_db',           # your database name
+        'USER': 'root',         # your MySQL username
+        'PASSWORD': '123456',      # your MySQL password
+        'HOST': '127.0.0.1',           # local MySQL server
+        'PORT': '3306',                # default MySQL port
     }
 }
 
